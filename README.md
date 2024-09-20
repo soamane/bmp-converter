@@ -28,3 +28,4 @@ You just need to run the project build using: ```> cmake --build .```
 # Notes
 - The BMP format requires that each row of the image data be aligned to 4 bytes. This is handled in the **GetRowByteSize()** method.
 - The console display is a simple representation of the image, where only black and white pixels are shown.
+- The program converts only 24/32-bit images
